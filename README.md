@@ -4,16 +4,13 @@ A C++ port of [debtap](https://github.com/helixarch/debtap) that converts Debian
 
 ## Build
 
-```bash
 g++ -std=c++17 -O2 -Wall -Wextra -pedantic debtap.cpp -o debtap
-```
 
 ## Usage
 
-```bash
 ./debtap package.deb
 sudo pacman -U package-version-1-x86_64.pkg.tar.zst
-```
+
 
 ## Options
 
